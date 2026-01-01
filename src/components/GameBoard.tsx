@@ -74,6 +74,13 @@ const GameBoard: React.FC<{ sx?: SxProps<Theme> }> = () => {
             {/* <Button variant="outlined">あそびかた</Button> */}
             <Spacer size={10} />
 
+            <p style={{}}>
+                辺上の日本語の単語を作り，しりとりをする．<br />
+                最小の単語数で全ての文字を使い切ろう．<br />
+                ある辺の文字から，同じ辺への移動はできない． <br />
+                半角モードで入力し，Enterで単語を確定する．Backspaceで文字削除/単語削除．<br />
+            </p>
+
             <svg
                 width={SIZE * MARGIN_CONSTANT}
                 height={SIZE * MARGIN_CONSTANT}
