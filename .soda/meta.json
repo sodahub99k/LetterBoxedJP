@@ -1,10 +1,11 @@
 {
-  "title": "LetterBoxedJP",
+  "name": "LetterBoxedJP",
   "description": "New York TimesのLetter Boxedの日本語版を遊べるサイト。全ての文字を最短のしりとりで使い切ろう。",
-  "tags": [
-    "game",
-    "puzzle",
-    "react"
-  ],
-  "date": "2025-12-15"
+  "category": "game",
+  "featured": true,
+  "status": "stable"
 }
+
+
+
+  
